@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+
+<div class="background">
+	
+<div class="nav">
+		<a class="a active" href="index.html">Home</a>
+		<a class="b" href="about.html">About</a>
+		<a class="c" href="projects.html">Projects</a>
+		<a class="d" href="contact.html">Contact</a>
+	</div>
+
+
+
+
+<div class="content">
+
+          <div class="social-box">
+            <table>
+              <tr>
+                <td><i class="fab fa-linkedin fa-3x"></i> </td>
+                <td>Redouane Aziraoui</td>
+              </tr>
+              <tr>
+                <td><i class="fab fa-instagram fa-3x"></i></td>
+                <td>Redouane Aziraoui</td>
+              </tr>
+              <tr>
+                <td><i class="fab fa-facebook fa-3x"></i></td>
+                <td>Redouane Aziraoui</td>
+              </tr>
+              <tr>
+                <td><i class="fab fa-google-plus-square fa-3x"></i></td>
+                <td>raziraoui</td>
+              </tr>
+              <tr>
+                <td><i class="far fa-envelope fa-3x"></i></td>
+                <td>raziraoui@gmail.com</td>
+              </tr>
+            </table>
+        </div>
+
+</div>
+      <div class="contact">
+          <h4>Name:</h4>
+          <input class="form name" type="text" name="" value="" placeholder="Name">
+          <h4>Email:</h4>
+          <input class="form email" type="text" name="" value="" placeholder="example@exapmle.com">
+          <h4>Phone number:</h4>
+          <input class="form phone" type="text" name="" value="" placeholder="xx-xxxxxxxx">
+          <h4>Message:</h4>
+          <textarea class="form message" name="name" rows="8" cols="80" placeholder="Type your message here"></textarea>
+      </div>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js﻿"></script>  
+<script type="text/javascript">
+  	
+  	 $(document).ready(function(){
+  	 	$('a').click(function(){
+  	 		//alert("Hi.");
+  	 		var selected = $(this);
+  	 		$('a').removeClass('active');
+  	 		$(selected).addClass('active');
+  	 	});
+  	 });
+
+
+  </script>
+
+</body>
+</html>

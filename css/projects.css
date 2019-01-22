@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: roboto, BlinkMacSystemFont, sans-serif;
+
+}
+
+.background {
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow-y: auto;
+}
+.nav{
+	width: 350px;
+	height: auto;
+	position: absolute;
+	top: 20%;
+	left: 0;
+
+}
+.nav a {
+	text-decoration: none;
+	font-size: 28px;
+	font-family: verdana;
+	font-weight: bold;
+	height: 90px;
+	margin: 5px 0;
+	float: left;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	line-height: 90px;
+	text-align: center;
+	transition: 0.5s;
+}
+a.active, .nav a:hover{
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+.a{
+	width: 95%;
+}
+.b{
+	width: 85%;
+}
+.c{
+	width: 80%;
+}
+.d{
+	width: 90%;
+}
+.content {
+	position: absolute;
+	width: 930px;
+	min-height: 500px;
+	height: auto;
+	right: 0;
+	top: 10%;
+}
+.home {
+	position: absolute;
+	right: 0;
+	bottom: -50px;
+	color: white;
+	font-family: verdana;
+}
+.home h1{
+	color: #6d6d6d;
+	font-size: 90px;
+	padding-right: 90px;
+	border-bottom: 1px solid grey;
+	text-transform: uppercase;
+}
+.home h3{
+	color: black;
+	font-size: 28px;
+	padding: 5px 0px;
+	opacity: 0.6;
+}
+.fp h1{
+	font-size: 30px;
+	margin-left: -200px;
+	margin-top: 75px;
+}
+.fp p{
+	font-size: 20px;
+	height: 300px;
+	width: 260px;
+	overflow: auto;
+	margin-left: -200px
+}
+
+.btn{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: verdana;
+	font-weight: inherit;
+	height: 25px;
+	margin: 5px 0;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	line-height: 25px;
+	text-align: center;
+	transition: 0.5s;
+	width: 50%;
+}
+a.fp, .fp a:hover{
+	background-color: white;
+	color: black;
+}
+.php h1{
+	font-size: 30px;
+	margin-left: -200px;
+	margin-top: -150px;
+}
+.php p{
+	font-size: 20px;
+	height: 300px;
+	width: 260px;
+	overflow: auto;
+	margin-left: -200px
+}
+a.php, .php a:hover{
+	background-color: white;
+	color: black;
+}

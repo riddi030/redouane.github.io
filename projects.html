@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projects</title>
+	<link rel="stylesheet" href="css/projects.css">
+</head>
+<body>
+
+<div class="background">
+	
+    <div class="nav">
+		  <a class="a active" href="index.html">Home</a>
+		  <a class="b" href="about.html">About</a>
+		  <a class="c" href="projects.html">Projects</a>
+		  <a class="d" href="contact.html">Contact</a>
+	 </div>
+
+  <div class="content">
+    <div class="fp">
+      <h1><b>My first HTML site</b><br></h1>
+      <p>
+        This is my first HTML website that I have ever made. Click on the link here to see the page.<br>
+        <a class="btn" href="1esite.html">Click here</a>
+        
+      </p>
+    </div>
+
+    <div class="php">
+      <h1><b>PHP</b></h1><br>
+      <p>
+        This is my first PHP site I made. I like PHP beacause its a littlebit difficult. And I like when things are al littlebit difficult. Click on the link to download the PHP site.<br>
+        <a class="btn" href="../php/formule.php" target="_blank">Click here</a>
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js﻿"></script>  
+<script type="text/javascript">
+  	
+  	 $(document).ready(function(){
+  	 	$('a').click(function(){
+  	 		//alert("Hi.");
+  	 		var selected = $(this);
+  	 		$('a').removeClass('active');
+  	 		$(selected).addClass('active');
+  	 	});
+  	 });
+
+
+  </script>
+
+</body>
+</html>
